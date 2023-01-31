@@ -8,6 +8,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+    color: var(--primary-color);
+}
+
 /* container */
 .container {
     padding-left: 1rem;
