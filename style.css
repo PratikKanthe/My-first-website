@@ -39,16 +39,33 @@ hr {
     margin-bottom: 1rem; */
 }
 
+.link:hover {
+    font-weight: bold;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 
+.link-primary:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
 .link-secondary {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+}
+
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
 
 /* look into BEM naming convention for CSS */
@@ -121,6 +138,7 @@ hr {
 
 .section {   
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 .section h3 {
