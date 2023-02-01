@@ -18,6 +18,7 @@ hr {
 
 
 
+
 /* container */
 .container {
     padding-left: 1rem;
@@ -151,5 +152,11 @@ footer {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+
+/* additional */
+.pb {
+    padding-bottom: 1rem;
 }
 
