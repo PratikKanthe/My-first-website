@@ -16,6 +16,8 @@ hr {
     color: var(--primary-color);
 }
 
+
+
 /* container */
 .container {
     padding-left: 1rem;
@@ -92,6 +94,7 @@ hr {
 .hero {
     padding: 2rem;
     text-align: center;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
